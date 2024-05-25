@@ -1,0 +1,10 @@
+#!/bin/rc
+
+bind -c . /sys/src/cmd/gs/
+bind -c /sys/lib/ghostscriptnew /sys/lib/ghostscript
+bind -c lib/ /sys/lib/ghostscript/lib
+bind -c Resource/ /sys/lib/ghostscript/Resource
+bind -c iccprofiles/ /sys/lib/ghostscript/iccprofiles
+bind -bc amd64/bin/ /bin
+
+
